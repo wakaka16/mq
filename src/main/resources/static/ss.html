@@ -8,6 +8,11 @@
   <script type="text/javascript">
     var apiUrlPre = "http://10.200.0.126:9041/discovery";
     var stompClient = null;
+    //心跳处理，防止断开
+
+
+
+
 
     function setConnected(connected) {
       document.getElementById('connect').disabled = connected;
